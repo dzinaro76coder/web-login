@@ -57,6 +57,9 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+.button:hover {
+  border-color: #1be9d8;
+}
 .button:active {
   transform: scale(0.98);
 }
