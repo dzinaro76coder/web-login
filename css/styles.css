@@ -213,3 +213,17 @@ button {
   text-align: center;
   margin-top: 15px;
 }
+@media (max-width: 768px) {
+  .nav_logo,
+  .nav_items {
+    display: none;
+  }
+  .home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../pics/puma.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
