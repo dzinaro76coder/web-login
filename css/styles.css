@@ -71,6 +71,7 @@ button {
   background-image: url("../pics/stonehenge.jpg");
   background-size: cover;
   background-position: center;
+  transition: ease 0.3s;
 }
 
 .home::before {
