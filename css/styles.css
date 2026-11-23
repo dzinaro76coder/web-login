@@ -121,7 +121,7 @@ button {
   display: none;
 }
 
-.form_close {
+.bx-x {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -148,7 +148,7 @@ button {
   transition: all 0.2s ease;
   border: none;
   outline: none;
-  padding: 0 30px;
+  padding: 0 35px;
   border-bottom: 1.5px solid #aaa;
 }
 .input_box input:focus {
@@ -159,11 +159,12 @@ button {
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
+  color: #5a5858;
 }
-.input_box i.email,
-.input_box i.password {
+.input_box i.bx-envelope,
+.input_box i.bx-lock {
   left: 0;
-  color: #707070;
+  /* color: #ec0b0b;*/
 }
 .input_box input:focus ~ i.email,
 .input_box input:focus ~ i.password {

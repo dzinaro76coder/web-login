@@ -1,7 +1,7 @@
 const formOpenBtn = document.querySelector("#form-open"),
   home = document.querySelector(".home"),
   formContainer = document.querySelector(".form_container"),
-  formCloseBtn = document.querySelector(".form_close"),
+  formCloseBtn = document.querySelector(".bx-x"),
   signupBtn = document.querySelector("#signup"),
   loginBtn = document.querySelector("#login"),
   pwShowHide = document.querySelectorAll(".pw_hide");
@@ -14,10 +14,10 @@ pwShowHide.forEach((icon) => {
     let getPwInput = icon.parentElement.querySelector("input");
     if (getPwInput.type === "password") {
       getPwInput.type = "text";
-      icon.classList.replace("uil-eye-slash", "uil-eye");
+      icon.classList.replace("bx-eye-slash", "bx-eye");
     } else {
       getPwInput.type = "password";
-      icon.classList.replace("uil-eye", "uil-eye-slash");
+      icon.classList.replace("bx-eye", "bx-eye-slash");
     }
   });
 });
